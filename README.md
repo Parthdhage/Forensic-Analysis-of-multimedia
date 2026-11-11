@@ -18,14 +18,14 @@ Install the Python packages:
 
 Start the Streamlit application:
 
-    streamlit run forensic_media_analyzer.py
+    streamlit run src/forensic_media_analyzer.py
 
 Streamlit prints a local URL to open in your browser.
 
 ## Repository layout
 
-    forensic_media_analyzer.py    Streamlit application
+    src/forensic_media_analyzer.py    Streamlit application
 
 ## Scope
 
-The repository currently contains a single application file. Keep original media files and any case evidence in a controlled local workspace; this project is a file-analysis interface, not a case-management or evidence-preservation system.
+The application is kept under src/ with its runtime dependencies listed in requirements.txt. Keep original media files and any case evidence in a controlled local workspace; this project is a file-analysis interface, not a case-management or evidence-preservation system.
